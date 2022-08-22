@@ -44,6 +44,27 @@ public class Main {
                 System.out.println(year + " год невисокосный");
             }
         }
-
+        //Задание 3
+        System.out.println("================Задание 4======================");
+        int deliveryDistance = 95;
+        int quantityDayForDelivery = 1;
+        if (deliveryDistance <= 20){
+            System.out.println("Потребуется дней: " + quantityDayForDelivery);
+        }else
+        {
+          if (20 < deliveryDistance && deliveryDistance < 60)
+          {
+              System.out.println("Потребуется дней: " + (quantityDayForDelivery + 1));
+          }else
+            {
+                if (60 <= deliveryDistance && deliveryDistance <= 100)
+                {
+                 System.out.println("Потребуется дней: " + (quantityDayForDelivery + 2));
+                }else
+                    {
+                        System.out.println("В данный адрес доставка неосуществляется");
+                    }
+            }
+        }
     }
 }
