@@ -44,7 +44,7 @@ public class Main {
                 System.out.println(year + " год невисокосный");
             }
         }
-        //Задание 3
+        //Задание 4
         System.out.println("================Задание 4======================");
         int deliveryDistance = 95;
         int quantityDayForDelivery = 1;
@@ -65,6 +65,37 @@ public class Main {
                         System.out.println("В данный адрес доставка неосуществляется");
                     }
             }
+        }
+        //Задание 5
+        System.out.println("================Задание 5======================");
+        int monthNumber = 12;
+        switch (monthNumber)
+        {
+            case 1: System.out.println("Месяц " + monthNumber + " (январь) принадлежит зимнему сезону");
+                break;
+            case 2: System.out.println("Месяц " + monthNumber + " (февраль) принадлежит зимнему сезону");
+                break;
+            case 3: System.out.println("Месяц " + monthNumber + " (март) принадлежит весеннему сезону");
+                break;
+            case 4: System.out.println("Месяц " + monthNumber + " (апрель) принадлежит весеннему сезону");
+                break;
+            case 5: System.out.println("Месяц " + monthNumber + " (май) принадлежит весеннему сезону");
+                break;
+            case 6: System.out.println("Месяц " + monthNumber + " (июнь) принадлежит летнему сезону");
+                break;
+            case 7: System.out.println("Месяц " + monthNumber + " (июль) принадлежит летнему сезону");
+                break;
+            case 8: System.out.println("Месяц " + monthNumber + " (август) принадлежит летнему сезону");
+                break;
+            case 9: System.out.println("Месяц " + monthNumber + " (сентябрь) принадлежит осеннему сезону");
+                break;
+            case 10: System.out.println("Месяц " + monthNumber + " (октябрь) принадлежит осеннему сезону");
+                break;
+            case 11: System.out.println("Месяц " + monthNumber + " (ноябрь) принадлежит осеннему сезону");
+                break;
+            case 12: System.out.println("Месяц " + monthNumber + " (декабрь) принадлежит зимнему сезону");
+                break;
+            default:  System.out.println("Месяца с номером " + monthNumber + " несуществует");
         }
     }
 }
